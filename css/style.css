@@ -1,270 +1,54 @@
 /* Include Bootstrap 4 CSS (you can include it in your HTML as mentioned earlier) */
 /* @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'); */
 
-.case-study {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .case-study .div {
-    background-color: #ffffff;
-    width: 1429px;
-    height: 5095px;
-    position: relative;
-  }
-  
-  .case-study .overlap {
-    position: absolute;
-    width: 1427px;
-    height: 120px;
-    top: 0;
-    left: 2px;
-    background-color: #646464;
-  }
-  
-  .case-study .text-wrapper {
-    position: absolute;
-    top: 22px;
-    left: 298px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 59.5px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .case-study .overlap-group {
-    position: absolute;
-    width: 1293px;
-    height: 4846px;
-    top: 182px;
-    left: 68px;
-    border: 3px solid;
-    border-color: #000000;
-  }
-  
-  .case-study .student-experience {
-    position: absolute;
-    width: 924px;
-    height: 680px;
-    top: 64px;
-    left: 182px;
-    object-fit: cover;
-  }
-  
-  .case-study .text-wrapper-2 {
-    position: absolute;
-    height: 50px;
-    top: 787px;
-    left: 39px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: 50px;
-    white-space: nowrap;
-  }
-  
-  .case-study .group {
-    height: 674px;
-    top: 884px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .text-wrapper-3 {
-    position: absolute;
-    height: 50px;
-    top: 0;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 40px;
-    letter-spacing: 0;
-    line-height: 50px;
-    white-space: nowrap;
-  }
-  
-  .case-study .higher-education {
-    position: absolute;
-    width: 1198px;
-    height: 600px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-2 {
-    height: 374px;
-    top: 1606px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .p {
-    position: absolute;
-    width: 1198px;
-    height: 300px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-3 {
-    height: 374px;
-    top: 2028px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .group-4 {
-    height: 224px;
-    top: 2450px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .element-students-who {
-    position: absolute;
-    width: 1198px;
-    height: 150px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-5 {
-    height: 324px;
-    top: 2722px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .department-head {
-    position: absolute;
-    width: 1198px;
-    height: 250px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-6 {
-    height: 485px;
-    top: 3094px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .text-wrapper-4 {
-    position: absolute;
-    width: 1198px;
-    height: 411px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-7 {
-    height: 424px;
-    top: 3627px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .discovered-overall {
-    position: absolute;
-    width: 1198px;
-    height: 350px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-8 {
-    height: 361px;
-    top: 4099px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .text-wrapper-5 {
-    position: absolute;
-    width: 1198px;
-    height: 287px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
-  .case-study .group-9 {
-    height: 270px;
-    top: 4508px;
-    position: absolute;
-    width: 1202px;
-    left: 39px;
-  }
-  
-  .case-study .text-wrapper-6 {
-    position: absolute;
-    width: 1198px;
-    height: 196px;
-    top: 74px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: 50px;
-  }
-  
+/* Custom CSS styles for the case study layout */
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Style the header */
+.jumbotron {
+    background-color: #007bff;
+    color: #000;
+    padding: 100px 0;
+}
+
+/* Style article headings */
+article h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Style article content */
+article p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style the sidebar card */
+.card {
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
